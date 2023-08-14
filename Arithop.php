@@ -1,4 +1,13 @@
-<?php
+<html>
+  <head>
+
+    <title>PHP Test</title>
+    
+  </head>
+
+  <body>
+
+    <?php
 
 $a = 42;
 $b = 20;
@@ -25,3 +34,7 @@ $c = $a--;
 echo "Decrement Operation Result : $c <br/>";
 
 ?>
+    
+  </body>
+</html>
+
