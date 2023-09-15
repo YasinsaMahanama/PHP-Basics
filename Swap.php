@@ -9,21 +9,21 @@
 
     <?php
 
-    function swap($x, $y)
-      {
-        $t = $x;
-        $x = $y;
-        $y = $t;
-      }
+        function swap($x, $y)
+        {
+            $t = $x;
+            $x = $y;
+            $y = $t;
+        }
 
-      $a = 10;
-      $b = 15;
+        $a = 10;
+        $b = 15;
 
-      echo " Before the swap : a = $a  b = $b <br/>";
+        echo " Before the swap : <br> a = $a  b = $b <br/>";
 
-      swap($a, $b);
+        swap($a, $b);
 
-      echo " After the swap : a = $a  b = $b <br/>";
+        echo " After the swap : <br> a = $a  b = $b <br/>";
 
     ?>
     
